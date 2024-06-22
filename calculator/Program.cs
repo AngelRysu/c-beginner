@@ -40,7 +40,7 @@ namespace HelloWorld
                       return;
                   }
                   result = number1 + number2;
-                  Console.WriteLine($"{number1} + {number2} = {result}");
+                  Console.WriteLine($"{number1} + {number2} = {result}\n\n");
                   break;
 
               case "2":
@@ -59,7 +59,7 @@ namespace HelloWorld
                       return;
                   }
                   result = number1 - number2;
-                  Console.WriteLine($"{number1} - {number2} = {result}");
+                  Console.WriteLine($"{number1} - {number2} = {result}\n\n");
                   break;
 
               case "3":
@@ -78,7 +78,7 @@ namespace HelloWorld
                       return;
                   }
                   result = number1 * number2;
-                  Console.WriteLine($"{number1} * {number2} = {result}");
+                  Console.WriteLine($"{number1} * {number2} = {result}\n\n");
                   break;
 
               case "4":
@@ -102,7 +102,7 @@ namespace HelloWorld
                       return;
                   }
                   result = number1 / number2;
-                  Console.WriteLine($"{number1} / {number2} = {result}");
+                  Console.WriteLine($"{number1} / {number2} = {result}\n\n");
                   break;
 
               default:
